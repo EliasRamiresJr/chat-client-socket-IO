@@ -3,7 +3,7 @@ import io from 'socket.io-client'
 import { v4 as uuidv4 } from 'uuid'
 
 const myId = uuidv4()
-const socket = io('http://localhost:8080')
+const socket = io('https://chat-server-even.herokuapp.com/')
 socket.on('connect', () => console.log('[IO] Connect => A new connection has been established'))
 
 const Chat = () => {
