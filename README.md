@@ -1,3 +1,5 @@
 # chat-client-socket-IO
 
-Chat em socket IO totalmente funcional, que se comunica com o backend e possibilita troca de mensagem.
+Chat criado usando React e socket.
+
+https://chat-front-even.herokuapp.com/
